@@ -27,6 +27,8 @@ addEventListener("submit", (event) => {
 
   let successFlag = false;
 
+  console.log("Hey")
+
   for (let i = 0; i < usersTable.length; i++) {
     if (email === usersTable[i]["username"] && password === usersTable[i]["password"]) {
       renderSuccess();
